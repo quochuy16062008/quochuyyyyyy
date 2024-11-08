@@ -1,67 +1,38 @@
+<!-- 
+  TODO: Create a motivational post website.
+Tạo kiểu theo ý thích của bạn.
+Hãy xem hình ảnh mục tiêu để lấy cảm hứng.
+Nhưng nó phải có các tính năng sau:
+1. Văn bản trong h1 sử dụng phông chữ "Libre Baskerville" Regular từ Google Fonts:
+  https://fonts.google.com/specimen/Libre+Baskerville
+2. Chữ màu trắng và nền màu đen.
+3. Thêm hình ảnh trong thử mục imgages trong thư mục assets. Hình ảnh phải có viền 5px màu trắng.
+4. Văn bản được canh giữa.
+5. Tạo thẻ div chữa các đối tượng h1, p và img. Điều chỉnh lề sao cho hình ảnh 
+và văn bản được căn giữa trên trang.
+  Gợi ý: Bạn căn giữa đối tượng div theo chiều ngang bằng cách đặt chiều rộng là 50% (hoặc kích thước cố định)
+   và lề trái là 25% (hoặc sử dụng margin:auto).
+  Gợi ý: Đặt chiều rộng của hình ảnh là 100% để nó lấp đầy div.
+6. Đọc về thuộc tính text-transform trên tài liệu MDN để làm cho h1 viết hoa bằng CSS.
+  https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform 
+-->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>CSS Box Model</title>
-    <style>
-      /* Write your CSS code here */
-      .box1{
-        width: 200px;
-        height:200px;
-        background-color: cadetblue;
-        border-color: black ;
-        padding: 20px;
-
-        border: 10px solid black;
-      }
-      .box2{
-        width: 200px;
-        height:200px;
-        background-color: gold;
-        border-right: 10px dashed black;
-        border-left: 10px dashed black;
-        border-top: 20px dashed black;
-        border-bottom: 20px dashed black;
-        margin-left:260px;
-      }
-      .box3{
-        width: 200px;
-        height:200px;
-        background-color: indianred;
-        border: 10px dotted black;
-        margin-left: 40px;
-      }
-    </style>
-  </head>
-
-  <body>
-    <!-- TODOs:
-1. Tạo 3 hộp (box) sử dụng thẻ div
-2. Thiết lập kích thước cho box cao 200px rộng 200px
-3. Thiết lập màu nền của mỗi box lần lượt là cadetblue, gold và indianred
-4. Thêm một đoạn văn sử dụng thẻ <p> bên trong đối tượng div đầu tiên và thêm nội dung dưới đây:
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at sapien porttitor urna elementum lacinia. In
-    id magna pulvinar, ultricies lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque magna. Phasellus
-    dolor metus, laoreet ac convallis sit amet, efficitur sed dolor.
-5. Thiết lập 1st div có padding 20px xung quanh và đường viền là black 10px.
-6. Sửa kiểu của phần tử <p> để xóa toàn bộ lề.
-Hint: Use the CSS inspector in Chrome.
-7. Đặt div thứ 2 có đường viền 20px ở trên cùng và dưới cùng; đường viền bên trái và bên phải là 10px (xem hình goal.png)
-8. Đặt div thứ 3 có đường viền 10px
-9. Đặt lề cho các div sao cho mỗi góc hộp chạm vào góc hộp kia. (Xem hình ảnh goal.png)
--->
-<div class="box1">
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at sapien porttitor urna elementum lacinia. In
-    id magna pulvinar, ultricies lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque magna. Phasellus
-    dolor metus, laoreet ac convallis sit amet, efficitur sed dolor.
-  </p>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HoaiAn</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="div">
+  <img src="./img/454050684_871622898352569_1088019822101572516_n.jpg" alt="">
+  <h1>
+    Nahida
+  </h1>
+  <h5>
+    Tôi tên là Nahida, đừng trông tôi như một đứa trẻ nhé, tôi hiểu rõ thế giới này hơn bất kỳ người lớn nào khác, bạn có thấy tôi dễ thương không nè
+  </h5>
 </div>
-<div class="box2">
-
-</div>
-<div class="box3">
-
-</div>
-  </body>
+</body>
 </html>
